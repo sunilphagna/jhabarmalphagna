@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rashulpur - Sunil Kumar, Sarpanch</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #4CAF50;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        section ul {
+            list-style-type: none;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery-img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        /* Contact Form */
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Rashulpur Gaav - Sarpanch Sunil Kumar</h1>
+            <!-- Correct Image Path -->
+            <img src="images/sunil_kumar.jpg" alt="Sunil Kumar - Sarpanch" class="profile-img">
+            <p>Gaav ke liye kiye gaye kaam aur vikas ki kahani</p>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#social-media">Social Media</a></li>
+            <li><a href="#schedule">Meeting Schedule</a></li>
+            <li><a href="#polls">Polls</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Swāgat hai Rashulpur Gaav ki website par</h2>
+        <p>Yahan aapko humare gaav ke vikas, events aur projects ke baare mein sab kuch milega.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>Hamare Baare Mein</h2>
+        <p>Mai Sunil Kumar, Rashulpur ka Sarpanch hoon. Mujhe apne gaav ke liye kaam karte hue garv mehsoos hota hai. Maine yahan kai vikas karye kiye hain...</p>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="work">
+        <h2>Hamare Kaam</h2>
+        <p>Rashulpur mein kiye gaye kuch pramukh kaam:</p>
+        <ul>
+            <li>Gaav mein sadak nirman</li>
+            <li>Shiksha aur swasthya ke liye abhiyan</li>
+            <li>Swachhata aur environment ka dhyaan rakha gaya</li>
+        </ul>
+        <!-- Correct Image Path -->
+        <img src="images/development_work.jpg" alt="Development Work" class="work-img">
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <!-- Correct Image Path -->
+            <img src="images/event1.jpg" alt="Event 1" class="gallery-img">
+            <img src="images/event2.jpg" alt="Event 2" class="gallery-img">
+            <img src="images/event3.jpg" alt="Event 3" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- Social Media Links Section -->
+    <section id="social-media">
+        <h2>Follow Me On</h2>
+        <ul>
+            <li><a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a></li>
+            <li><a href="https://www.threads.com/yourprofile" target="_blank">Threads</a></li>
+        </ul>
+    </section>
+
+    <!-- Meeting Schedule Section -->
+    <section id="schedule">
+        <h2>Meeting Schedule</h2>
+        <p>Aapki suvidha ke liye humari agle mahine ki meetings ka schedule:</p>
+        <ul>
+            <li>15 Jan, 2024 - Village Development Plan</li>
+            <li>22 Jan, 2024 - Health Camp</li>
+            <li>29 Jan, 2024 - Education Workshop</li>
+        </ul>
+    </section>
+
+    <!-- Polls Section -->
+    <section id="polls">
+        <h2>Polls: Aapki Ray</h2>
+        <form>
+            <label for="poll">Aapko kis vikas karye par dhyaan dena chahiye?</label><br>
+            <input type="radio" name="poll" value="Roads"> Sadak Nirman<br>
+            <input type="radio" name="poll" value="Health"> Swasthya Abhiyan<br>
+            <input type="radio" name="poll" value="Education"> Shiksha<br>
+            <br>
+            <button type="submit">Vote Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Agar aapko kisi bhi tarah ka sawal ya feedback dena ho, to niche form bhar sakte hain:</p>
+        <form>
+            <label for="name">Aapka Naam:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Aapka Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Aapka Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Rashulpur Gaav. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
